@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1d1b1d;
+    color: white;
+    text-decoration: none;
+}
+
+.top{
+    margin: auto;
+    margin-top: 130px;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.top .top-left{
+    /* border: 1px solid white; */
+    width: 40%;
+    padding: 20px;
+}
+
+.top .top-left h1{
+    font-size: 80px;
+    margin-bottom: -35px;
+}
+
+.top .top-left p{
+    margin-top: 50px;
+    font-size: 13px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.top .top-right{
+    /* border: 1px solid white; */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.top .top-right img{
+    width: 70%; 
+}
+
+.top .top-left button {
+    background-color: #faaa1e;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    min-height: 40px;
+    outline: none;
+    text-align: center;
+    font-weight: 600;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    width: 30%;
+  }
+  
+  .top .top-left button:disabled {
+    pointer-events: none;
+  }
+  
+  .top .top-left button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    border: 1px solid white;
+  }
+  
+  .top .top-left button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  /* //////////////////////////////////////////////// */
+
+  .mid{
+    margin: auto;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.mid .mid-right{
+    /* border: 1px solid white; */
+    width: 40%;
+    padding: 20px;
+}
+
+.mid .mid-right h1{
+    font-size: 80px;
+    margin-bottom: -35px;
+}
+
+.mid .mid-right p{
+    margin-top: 50px;
+    font-size: 13px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.mid .mid-left{
+    /* border: 1px solid white; */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.mid .mid-left img{
+    width: 80%; 
+}
+
+.mid .mid-right button {
+    background-color: #faaa1e;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    min-height: 40px;
+    outline: none;
+    text-align: center;
+    font-weight: 600;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    width: 30%;
+}
+  
+.mid .mid-right button:disabled {
+  pointer-events: none;
+}
+  
+.mid .mid-right button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  border: 1px solid white;
+}
+
+.mid .mid-right button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+  /* //////////////////////////////////////////////// */
+
+  .bellow{
+    margin: auto;
+    margin-top: 130px;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.bellow .bellow-left{
+    /* border: 1px solid white; */
+    width: 40%;
+    padding: 20px;
+}
+
+.bellow .bellow-left h1{
+    font-size: 80px;
+    margin-bottom: -35px;
+}
+
+.bellow .bellow-left p{
+    margin-top: 50px;
+    font-size: 13px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.bellow .bellow-right{
+    /* border: 1px solid white; */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.bellow .bellow-right img{
+    width: 38%; 
+}
+  
+.bellow .bellow-left button {
+  background-color: #faaa1e;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  min-height: 40px;
+  outline: none;
+  text-align: center;
+  font-weight: 600;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  width: 30%;
+}
+
+.bellow .bellow-left button:disabled {
+  pointer-events: none;
+}
+
+.bellow .bellow-left button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  border: 1px solid white;
+}
+
+.bellow .bellow-left button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* //////////////////////////////////////////////// */
+
+.recent{
+  width: 90%;
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+.col{
+  flex-basis: 50%;
+}
+
+.feature-img{
+  width: 90%;
+  margin: auto;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.small-img-row{
+  display: flex;
+  background: #232323;
+  margin: 20px 0;
+  align-items: center;
+  border-radius: 10px;
+  width: 85%;
+}
+
+.small-img-row > div{
+  margin-bottom: -6px;
+}
+
+.small-img{
+  position: relative;
+}
+
+.small-img :first-child{
+  width: 180px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.small-img-row p{
+  margin-left: 20px;
+  color: white;
+  background: transparent;
+  line-height: 22px;
+  font-size: 17px;
+}
+
+.play-btn-1{
+  width: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.small-img .play-btn-1{
+  width: 35px;
+}
+
+.video-player{
+  width: 160vh;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -45%);
+  display: none;
+}
+
+video:focus{
+  outline: none;
+}
+
+.video-player .close-btn{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.tutorial{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tutorial > iframe{
+  display: block;
+  width: calc(1/3);
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
